@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff8f0;
+  color: #4b2e2e;
+}
+
+/* Shared Layout Container */
+.main-container,
+.admin-panel {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #b85c38;
+}
+
+.admin-header h1 {
+  font-size: 2rem;
+  color: #b85c38;
+}
+
+/* Header for Admin Panel */
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Sign Out Button */
+.admin-header button {
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+  background-color: #e07a5f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.admin-header button:hover {
+  background-color: #d45d45;
+}
+
+/* Job Role Selection */
+.role-select-label {
+  font-weight: bold;
+  margin-top: 1rem;
+  display: inline-block;
+  color: #6b3e26;
+}
+
+.role-select {
+  margin-left: 1rem;
+  padding: 0.4rem;
+  font-size: 1rem;
+  background-color: #fff1e6;
+  color: #4b2e2e;
+  border: 1px solid #d4a373;
+  border-radius: 4px;
+}
+
+/* Button Group */
+.button-group {
+  margin-top: 1rem;
+}
+
+.button-group button {
+  margin-right: 1rem;
+  padding: 0.4rem 1rem;
+  font-size: 1rem;
+  background-color: #f4a261;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-group button:hover {
+  background-color: #e76f51;
+}
+
+/* Error Message */
+.error-message {
+  color: #c0392b;
+  margin-top: 1rem;
+}
+
+/* Tabs (if used elsewhere) */
+.tab-buttons {
+  margin-bottom: 20px;
+}
+
+.tab-buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #ffe8d6;
+  color: #4b2e2e;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.tab-buttons .active {
+  background: #f4a261;
+  color: #fff;
+}
+
+/* Forms */
+form {
+  margin: 20px auto;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, select, button {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #e07a5f;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c76c4c;
+}
+
+/* Results Section Container */
+.results-section {
+  margin-top: 2rem;
+  text-align: left;
+  background-color: #fff1e6;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(204, 144, 72, 0.2);
+}
+
+/* Section Headers */
+.results-section h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #b85c38;
+}
+
+/* List Styling */
+.results-section ol,
+.results-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* List Items */
+.results-section li {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  background-color: #fef4e8;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #4b2e2e;
+}
+
+/* View PDF Button */
+.results-section li button {
+  margin-left: 1rem;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.9rem;
+  background-color: #e29578;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.results-section li button:hover {
+  background-color: #d6765d;
+}
+
