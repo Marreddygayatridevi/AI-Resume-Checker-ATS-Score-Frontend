@@ -1,1 +1,0 @@
-# AI-Resume-Checker-ATS-Score-Frontend
